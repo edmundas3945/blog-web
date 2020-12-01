@@ -1,10 +1,28 @@
 
 body {
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
+    margin: 0;
+}
+header {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+}
+header img{
+    height: 45px;
+    margin-left: 15px;
+}
+#userBtn {
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+#menuBtn {
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 15px;
 }
 #loginBtn {
     padding: 15px 45px;
@@ -43,10 +61,4 @@ body {
 .btn {
     margin: 30px 90px;
 }
-.announcement {
-    margin-bottom: 60px;
-    font-family: 'Sansita Swashed', cursive;
-    font-size: 30px;
-    word-spacing: 9px;
-    letter-spacing: 3px;
-}
+
