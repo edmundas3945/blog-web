@@ -1,0 +1,65 @@
+body {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
+.container{
+    text-align: center;
+    padding: 15px 60px;
+    border-radius: 15px;
+    background-color: chocolate;
+}
+.announcement {
+    margin-bottom: 60px;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 30px;
+}
+#submit {
+    padding: 9px 30px;
+    border-radius: 6px;
+    background-color: forestgreen;
+    margin-top: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+#submit:hover {
+    background-color: blueviolet;
+    color: gold;
+}
+#login {
+    padding: 9px 30px;
+    border-radius: 6px;
+    background-color: forestgreen;
+    margin-top: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+#login:hover {
+    background-color: blueviolet;
+    color: gold;
+}
+h5 {
+    font-size: 21px;
+}
+.loginText {
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+.loginText:hover {
+    text-decoration: none;
+    color: gold;
+}
+#login {
+    padding: 9px 30px;
+    border-radius: 6px;
+    background-color: blue;
+    margin-top: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+#login:hover {
+    background-color: blueviolet;
+}

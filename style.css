@@ -1,0 +1,52 @@
+
+body {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#loginBtn {
+    padding: 15px 45px;
+    border-radius: 6px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 1s;
+    margin: 30px 90px;
+}
+#loginBtn:hover {
+    background-color: blue;
+    color: white;
+}
+#registerBtn {
+    padding: 15px 45px;
+    border-radius: 6px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 1s;
+    margin: 30px 90px;
+}
+#registerBtn:hover {
+    background-color: green;
+    color: white;
+}
+.firstContainer {
+    background-color: chocolate;
+    border-radius: 15px;
+}
+.btn {
+    margin: 30px 90px;
+}
+.announcement {
+    margin-bottom: 60px;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 30px;
+    word-spacing: 9px;
+    letter-spacing: 3px;
+}
