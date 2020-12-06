@@ -63,3 +63,16 @@ h5 {
 #login:hover {
     background-color: blueviolet;
 }
+#edit {
+    padding: 9px 30px;
+    border-radius: 6px;
+    background-color: forestgreen;
+    margin-top: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+#edit:hover {
+    background-color: blueviolet;
+    color: gold;
+}
+

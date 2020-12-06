@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83779cad-f3fa-4cac-a856-e47b1bb9f3d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/createPost.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/createPost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myPosts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myPosts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/authorPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/authorPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorPageJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/authorPageJS.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/loginJS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/particularPost.html" beforeDir="false" afterPath="$PROJECT_DIR$/particularPost.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/particularPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/particularPost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/ThreeInOne.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +34,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -28,10 +44,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/regStyle.css" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="ProjectId" id="1l0fBKHKEpFBEss8NH8zTDmLg5e" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,6 +56,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -48,7 +65,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Judzinas\PhpstormProjects\now 30 blog web" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -59,11 +82,21 @@
       <option name="presentableId" value="Default" />
       <updated>1606738793039</updated>
       <workItem from="1606738794127" duration="8547000" />
-      <workItem from="1606811057419" duration="3701000" />
+      <workItem from="1606811057419" duration="19314000" />
+      <workItem from="1606892606347" duration="23899000" />
+      <workItem from="1607065868967" duration="34516000" />
+      <workItem from="1607187393038" duration="47000" />
+      <workItem from="1607187466704" duration="13428000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607067276045">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1607067276045" />
   </component>
 </project>

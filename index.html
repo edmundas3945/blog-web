@@ -8,28 +8,53 @@
     <script src="https://kit.fontawesome.com/42762d49f1.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <header>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/History_HD_Logo.svg/1200px-History_HD_Logo.svg.png" alt="">
-        <div>
-            <i id="userBtn" class="far fa-user-circle"></i>
-            <i id="menuBtn" class="fas fa-bars"></i>
+        <a href="index.html">
+            <img id="home" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/History_HD_Logo.svg/1200px-History_HD_Logo.svg.png" alt="">
+        </a>
+        <div class="t-right" >
+            <div class="btn">
+                <a href="login.html" id="loginBtn">Log in</a>
+            </div>
+            <div class="btn">
+                <a href="register.html" id="registerBtn">Register</a>
+            </div>
+            <div class="btn">
+                <a href="createPost.html" id="createBtn">Create Post</a>
+            </div>
+            <div>
+                <a id="loggedUser" href="myPosts.html"></a>
+            </div>
         </div>
     </header>
+    <img class="firstPic" src="https://techmeetups.com/wp-content/uploads/2019/06/blogging-SMB.png" alt="">
 
-    <div class="firstContainer">
+    <main id="postsContainer">
+    <div class="post">
+        <img src="Kauno%20egles%20kureja.png" alt="">
+        <div class="dataAndTip">
+            <h5 class="title">DECEMBER 1 2020 </h5>
+        </div>
+        <div class="title">
+            Kauna's Christmas tree designer has been discovered
+        </div>
+        <div class="description">
+            Kaunas has launched christmas tree, everyone is wonder how designer was inspired to creat that beautiful tree.
+        </div>
+        <div class="footerOfPost">
+            <div>Read more</div>
+            <div>by: Author</div>
+        </div>
 
-        <div class="btn">
-            <a href="login.html" id="loginBtn">Log in</a>
-        </div>
-        <div>or</div>
-        <div class="btn">
-            <a href="register.html" id="registerBtn">Register</a>
-        </div>
     </div>
+
+
+    </main>
 
 </body>
 </html>

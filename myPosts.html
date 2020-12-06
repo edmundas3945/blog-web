@@ -2,17 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Author's Page</title>
+    <title>my posts</title>
     <link rel="stylesheet" href="style.css">
-    <script src="authorPage.js" defer></script>
-    <script src="https://kit.fontawesome.com/42762d49f1.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <script src="myPosts.js" defer></script>
 </head>
 <body>
-
 <header>
     <a href="index.html">
         <img id="home" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/History_HD_Logo.svg/1200px-History_HD_Logo.svg.png" alt="">
@@ -27,20 +21,23 @@
         <div class="btn">
             <a href="createPost.html" id="createBtn">Create Post</a>
         </div>
-        <div>
-            <a id="loggedUser" href="myPosts.html"></a>
-        </div>
+
     </div>
 </header>
 <img class="firstPic" src="https://techmeetups.com/wp-content/uploads/2019/06/blogging-SMB.png" alt="">
 
-<div class="midText">
-<h3>Here is posts by :</h3><h3 id="author"></h3>
-</div>
+<h3 id="announcementOfPage">My Posts</h3>
 
-<main id="authorPostsContainer">
+<main id="myPostsContainer">
 
 </main>
+
+<div id="areYouSure">
+    Are you sure about delete post?
+    <div class="btn3" id="yes">yes</div>
+    <div class="btn3" id="no">no</div>
+</div>
+
 
 </body>
 </html>
