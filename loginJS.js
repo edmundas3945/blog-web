@@ -30,8 +30,7 @@ function LogIn(){
         if(data.success){
             localStorage.setItem('secretKey', data.secretKey)
             console.log(localStorage)
-            window.close()
-            window.open('index.html')
+            window.location.href('index.html')
             localStorage.setItem('loggedUser', userName.value)
         }else {
             alert(data.message)

@@ -2,26 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83779cad-f3fa-4cac-a856-e47b1bb9f3d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/createPost.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/createPost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myPosts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myPosts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeInOne.css" beforeDir="false" afterPath="$PROJECT_DIR$/ThreeInOne.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authorPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/authorPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/authorPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorPageJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/authorPageJS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorPageJS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/createPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/createPost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/editPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loginJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/loginJS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPosts.html" beforeDir="false" afterPath="$PROJECT_DIR$/myPosts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/myPosts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/particularPost.html" beforeDir="false" afterPath="$PROJECT_DIR$/particularPost.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/particularPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/particularPost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/ThreeInOne.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +79,8 @@
       <workItem from="1606892606347" duration="23899000" />
       <workItem from="1607065868967" duration="34516000" />
       <workItem from="1607187393038" duration="47000" />
-      <workItem from="1607187466704" duration="13428000" />
+      <workItem from="1607187466704" duration="15504000" />
+      <workItem from="1607246399204" duration="4826000" />
     </task>
     <servers />
   </component>

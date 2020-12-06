@@ -31,8 +31,7 @@ function registerUser(){
         .then(data => {
         console.log(data)
         if(data.success){
-            window.close()
-            window.open('login.html')
+            window.location.href('login.html')
             userName.value = ''
             passwordInput.value = ''
         }else {

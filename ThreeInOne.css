@@ -4,12 +4,17 @@ body {
     justify-content: center;
     align-items: center;
     background-color: burlywood;
+    position: relative;
 }
 .container{
     text-align: center;
     padding: 15px 60px;
     border-radius: 15px;
     background-color: chocolate;
+    position: fixed;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
 }
 .announcement {
     margin-bottom: 60px;

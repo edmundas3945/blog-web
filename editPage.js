@@ -17,9 +17,9 @@ function editPost(){
     console.log(editData)
     let data = {
         secretKey: localStorage.getItem('secretKey'),
-        title: editData.title,
-        description: editData.description,
-        image: editData.image,
+        title: inputTitle.value,
+        description: inputDes.value,
+        image: img.value,
         id: editData.id
 
     }
@@ -31,16 +31,15 @@ function editPost(){
         },
         body: JSON.stringify(data)
     }).then(res => res.json())
-        // .then (data => {
-        //         if(data.success){
-        //             window.close()
-        //             window.open('myPosts.html')
-        //         }
-        //         else {
-        //             alert(data.message)
-        //         }
-        //     }
-        // )
-        .then(data => console.log(data))
+        .then (data => {
+                if(data.success){
+                    window.location.href = 'myPosts.html'
+                }
+                else {
+                    alert(data.message)
+                }
+            }
+        )
+        // .then(data => console.log(data))
 }
 

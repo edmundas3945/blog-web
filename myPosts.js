@@ -26,15 +26,13 @@ function openMyPosts(){
                         "July", "August", "September", "October", "November", "December"]
                     myPostsContainer.innerHTML += `
                 <div id="${item.id}" class="authorPost">
-        <img src="${item.image}" alt="">
+        <img src="${item.image}" onclick="openParticularPost()" alt="">
         <div class="center">${monthNames[date.getMonth()]} ${date.getDay()+1}, ${date.getFullYear()}</div>
         <h5 class="title">${item.title}</h5>
         <div class="description">${item.description}</div>
         <div class="bottomOfMyPost">
-            <a href="editPage.html">
-                <div onclick="editInfo(event)" class="editBtn">Edit</div>
-            </a>
-            <div onclick="deletePost(event)" class="deleteBtn">Delete</div>
+        <div onclick="editInfo(event)" class="editBtn">Edit</div>
+        <div onclick="deletePost(event)" class="deleteBtn">Delete</div>
         </div>
     </div>`
                 })
@@ -92,6 +90,7 @@ function editInfo(event) {
     // localStorage.setItem('editImage', smth.image)
     // localStorage.setItem('editId', smth.id)
     console.log(something)
+    window.location.href = 'editPage.html'
 }
 
 

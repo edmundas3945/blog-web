@@ -25,29 +25,21 @@ function getAll(){
 
                 postsContainer.innerHTML += `
                 <div class="post">
-                <a href="particularPost.html">
-                    <img title="${item.username}" id="${item.id}" class="postImg" onclick="openParticularPost(event)" src="${item.image}" alt="" >
-                </a>
-
-        <div class="dataAndAuthor">
-            <div class="">${monthNames[date.getMonth()]} ${date.getDay()}, ${date.getFullYear()}</div>
-            <div class="d-flex">
-                <div>by: </div>
-                <a href="authorPage.html">
-                    <div class="goToAuthor" id="${item.username}" onclick="openAuthorPage(event)"> ${item.username}</div>
-                </a>
-            </div>
-        </div>
-        <a href="particularPost.html">
-            <h5 title="${item.username}" id="${item.id}" onclick="openParticularPost(event)" class="title" >
+                <img title="${item.username}" id="${item.id}" class="postImg" onclick="openParticularPost(event)" src="${item.image}" alt="" >
+                <div class="dataAndAuthor">
+                    <div class="">${monthNames[date.getMonth()]} ${date.getDay()}, ${date.getFullYear()}</div>
+                    <div class="d-flex">
+                        <div>by: </div>
+                        <div class="goToAuthor" id="${item.username}" onclick="openAuthorPage(event)"> ${item.username}</div>
+                    </div>
+                </div>
+                <h5 title="${item.username}" id="${item.id}" onclick="openParticularPost(event)" class="title" >
                     ${item.title}
-            </h5>
-        </a>
-           
-        <div class="description">
-        ${item.description}
-        </div>
-    </div>`
+                </h5>
+                <div class="description">
+                ${item.description}
+                </div>
+                </div>`
             })
             }
             )
@@ -60,6 +52,7 @@ function goHome(){
 function openAuthorPage(event){
     let particularUser = event.target.id
     localStorage.setItem('particularName', particularUser)
+    window.location.href = 'authorPage.html'
 }
 
 function openParticularPost(event){
@@ -69,6 +62,7 @@ function openParticularPost(event){
         name: event.target.title,
         id: event.target.id
     }));
+    window.location.href = 'particularPost.html'
 }
 
 

@@ -23,8 +23,7 @@ function createPost(){
     }).then(res => res.json())
         .then (data => {
             if(data.success){
-                window.close()
-                window.open('index.html')
+                window.location.href('index.html')
             }
             else {
                 alert(data.message)
